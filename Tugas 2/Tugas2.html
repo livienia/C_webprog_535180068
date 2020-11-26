@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+</head>
+<body>
+    <p>Masukkan 2 buah bilangan</p>
+    <label>Bilangan 1</label>
+    <input type="text" name="bil1" id="bil1" text-align="right">
+    <br>
+    <label>Bilangan 2</label>
+    <input type="text" name="bil2" id="bil2">
+    <br>
+    <label>Hasil</label>
+    <label type="number" id="hasil"></label>
+    <br><br><br><br><br>
+
+    <button type="button" name="tambah" onclick="tambah(bil1,bil2);">+</button>
+    <button type="button" name="kurang" onclick="kurang(bil1,bil2);">-</button>
+    <button type="button" name="kali" onclick="kali(bil1,bil2);">x</button>
+    <button type="button" name="bagi" onclick="bagi(bil1,bil2);">/</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
